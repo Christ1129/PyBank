@@ -6,7 +6,7 @@ with open ('election_data.csv') as csvfile:
     csvreader=csv.reader(csvfile, delimiter=',') 
     header=next(csvreader) 
 
-        #Variables
+        #Variable
     ballotids=[] 
     counties=[] 
     candidates=[] 
