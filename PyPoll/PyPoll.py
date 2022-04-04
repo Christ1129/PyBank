@@ -1,7 +1,7 @@
 import os
 import csv
 #start csv file
-election_data = os.path.join("election_data.csv")
+
 with open ('election_data.csv') as csvfile:
     csvreader=csv.reader(csvfile, delimiter=',') 
     header=next(csvreader) 
@@ -76,3 +76,7 @@ print(analysis)
 file1=open("pypoll.txt","w") 
 file1.writelines(analysis) 
 file1.close() 
+    
+
+
+
